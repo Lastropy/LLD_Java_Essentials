@@ -1,7 +1,6 @@
-package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Deque;
+package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Collections.Stack;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Stack;
 
 public class demo {
     public static void main(String[] args) {
@@ -23,22 +22,13 @@ public class demo {
         // To use queue -> LinkedList
         // To use Deque -> ArrayDeque
 
-        // FIFO Dequeue demo 
-        System.out.println("\n(FIFO) Deque demo");
+        // LIFO Stack demo 
+        System.out.println("\n(LIFO) Stack demo ");
         
-        Deque<Integer> dq = new ArrayDeque<>();
-        dq.offerFirst(1);
-        dq.offerFirst(2);
-        dq.offerLast(5);
+        Stack<Integer> st = new Stack<>();
+        st.push(1);
 
-        System.out.println("First ele = "+dq.peekFirst());
-        System.out.println("Last ele = "+dq.peekLast());
-
-        System.out.println("removing from front = "+dq.pollFirst());
-        System.out.println("removing from back = "+dq.pollLast());
-
-        while(!dq.isEmpty()) {
-            System.out.println("Ele -> "+dq.pollFirst());
-        }
+        System.out.println(st.peek());
+        System.out.println("Removing = " + st.pop());
     }
 }

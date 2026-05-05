@@ -1,4 +1,4 @@
-package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.ArrayList;
+package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

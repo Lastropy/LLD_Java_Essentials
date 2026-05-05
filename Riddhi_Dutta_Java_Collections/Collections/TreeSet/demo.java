@@ -1,4 +1,4 @@
-package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.TreeSet;
+package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Collections.TreeSet;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

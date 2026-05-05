@@ -1,4 +1,4 @@
-package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.PriorityQueue;
+package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Collections.PriorityQueue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

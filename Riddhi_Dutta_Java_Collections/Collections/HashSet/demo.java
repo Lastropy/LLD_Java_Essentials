@@ -1,4 +1,4 @@
-package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.HashSet;
+package LLD_Java_Essentials.Riddhi_Dutta_Java_Collections.Collections.HashSet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
