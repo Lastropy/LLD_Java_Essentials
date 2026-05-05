@@ -7,6 +7,8 @@ import java.util.ListIterator;
 
 public class demo {
     public static void main(String[] args) {
+        System.out.println("\n ArrayList demo");
+
         List<Integer> lst = new ArrayList<>();
         lst.add(1);
         lst.add(2);
@@ -36,6 +38,9 @@ public class demo {
         ll.add(1);
         ll.add(2);
         ll.add(3);
+
+        System.out.println("\n ListIterator demo");
+        
         ListIterator<Integer> li = ll.listIterator();
         
         System.out.println(li.next()); // Print current ele, then go to next index

@@ -24,6 +24,8 @@ public class demo {
         // To use Deque -> ArrayDeque
 
         // FIFO Dequeue demo 
+        System.out.println("\n(FIFO) Deque demo");
+        
         Deque<Integer> dq = new ArrayDeque<>();
         dq.offerFirst(1);
         dq.offerFirst(2);

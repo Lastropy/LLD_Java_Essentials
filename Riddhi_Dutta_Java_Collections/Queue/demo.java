@@ -24,6 +24,8 @@ public class demo {
         // To use Deque -> ArrayDeque
 
         // FIFO Queue demo 
+        System.out.println("(FIFO) Queue demo");
+
         Queue<Integer> q = new LinkedList<>();
         q.offer(1);
         q.offer(2);

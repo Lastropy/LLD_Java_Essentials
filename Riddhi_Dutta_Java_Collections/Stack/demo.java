@@ -23,6 +23,8 @@ public class demo {
         // To use Deque -> ArrayDeque
 
         // LIFO Stack demo 
+        System.out.println("\n(LIFO) Stack demo ");
+        
         Stack<Integer> st = new Stack<>();
         st.push(1);
 
